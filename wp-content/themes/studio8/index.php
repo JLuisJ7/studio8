@@ -15,7 +15,7 @@
 <link rel="shortcut icon" href="<?php bloginfo( 'template_directory' ); ?>/favicon.png"/>
 
 <!--[if IE]>
-	<link rel="shortcut icon" href="http://themes.simonbouchard.com/studio8/wp-content/themes/studio8/library/images/favicon.ico">
+	<link rel="shortcut icon" href="<?php bloginfo( 'template_directory' ); ?>/favicon.png"/>
 <![endif]-->
 <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -29,18 +29,12 @@
 
 <link rel='stylesheet' id='stylesheet-css'  href='<?php bloginfo( 'template_directory' ); ?>/css/style.css' type='text/css' media='all' />
 <link rel='stylesheet' id='fa-css'  href='<?php bloginfo( 'template_directory' ); ?>/css/font-awesome.min.css' type='text/css' media='all' />
-<!--[if lt IE 9]>
-<link rel='stylesheet' id='ie-only-css'  href='http://themes.simonbouchard.com/studio8/wp-content/themes/studio8/library/css/ie.css?ver=4.1.1' type='text/css' media='all' />
-<![endif]-->
-<script type='text/javascript' src='http://themes.simonbouchard.com/studio8/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
-<script type='text/javascript' src='http://themes.simonbouchard.com/studio8/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
-<script type='text/javascript' src='http://p.jwpcdn.com/6/11/jwplayer.js?ver=4.1.1'></script>
-<script type='text/javascript' src='http://themes.simonbouchard.com/studio8/wp-content/themes/studio8/library/js/libs/plugins.js?ver=4.1.1'></script>
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://themes.simonbouchard.com/studio8/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://themes.simonbouchard.com/studio8/wp-includes/wlwmanifest.xml" /> 
 
-<link rel='canonical' href='http://themes.simonbouchard.com/studio8/' />
-<link rel='shortlink' href='http://themes.simonbouchard.com/studio8/' />
+<script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/jquery.js'></script>
+<script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/jwplayer.js'></script>
+<script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/plugins.js'></script>
+
 <script type="text/javascript">jwplayer.defaults = { "ph": 2 };</script>
             <script type="text/javascript">
             if (typeof(jwp6AddLoadEvent) == 'undefined') {
