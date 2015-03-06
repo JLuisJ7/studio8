@@ -35,24 +35,6 @@
 <script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/jwplayer.js'></script>
 <script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/plugins.js'></script>
 
-<script type="text/javascript">jwplayer.defaults = { "ph": 2 };</script>
-            <script type="text/javascript">
-            if (typeof(jwp6AddLoadEvent) == 'undefined') {
-                function jwp6AddLoadEvent(func) {
-                    var oldonload = window.onload;
-                    if (typeof window.onload != 'function') {
-                        window.onload = func;
-                    } else {
-                        window.onload = function() {
-                            if (oldonload) {
-                                oldonload();
-                            }
-                            func();
-                        }
-                    }
-                }
-            }
-            </script>
 
             <style>
 
