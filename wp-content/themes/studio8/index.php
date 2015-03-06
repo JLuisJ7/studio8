@@ -28,7 +28,7 @@
 <link rel="alternate" type="application/rss+xml" title="Studio 8 &raquo; Home Comments Feed" href="http://themes.simonbouchard.com/studio8/home/feed/" />
 <link rel='stylesheet' id='Open+Sans:100,300,n,i,b,bi,-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A100%2C300%2Cn%2Ci%2Cb%2Cbi%2C&#038;ver=4.1.1' type='text/css' media='all' />
 <link rel='stylesheet' id='Montserrat:100,300,n,i,b,bi,-css'  href='http://fonts.googleapis.com/css?family=Montserrat%3A100%2C300%2Cn%2Ci%2Cb%2Cbi%2C&#038;ver=4.1.1' type='text/css' media='all' />
-<link rel='stylesheet' id='contact-form-7-css'  href='http://themes.simonbouchard.com/studio8/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.1' type='text/css' media='all' />
+
 <link rel='stylesheet' id='ot-dynamic-sbwp_custom_css-css'  href='http://themes.simonbouchard.com/studio8/wp-content/themes/studio8/dynamic.css?ver=2.5.0' type='text/css' media='all' />
 <link rel='stylesheet' id='stylesheet-css'  href='http://themes.simonbouchard.com/studio8/wp-content/themes/studio8/library/css/style.css?ver=4.1.1' type='text/css' media='all' />
 <link rel='stylesheet' id='fa-css'  href='http://themes.simonbouchard.com/studio8/wp-content/themes/studio8/library/css/font-awesome/css/font-awesome.min.css?ver=4.1' type='text/css' media='all' />
@@ -469,23 +469,7 @@ body.inverted #contactMapHolder {
 
     </div>
 
-  
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-58469903-1', 'auto');
-  ga('send', 'pageview');
-</script>
-	<script type='text/javascript' src='http://themes.simonbouchard.com/studio8/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var _wpcf7 = {"loaderUrl":"http:\/\/themes.simonbouchard.com\/studio8\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ...","cached":"1"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='http://themes.simonbouchard.com/studio8/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.1'></script>
 <script type='text/javascript' src='http://themes.simonbouchard.com/studio8/wp-content/plugins/bj-lazy-load/js/combined.min.js?ver=0.7.5'></script>
 <script type='text/javascript' src='http://themes.simonbouchard.com/studio8/wp-includes/js/comment-reply.min.js?ver=4.1.1'></script>
 <script type='text/javascript' src='http://maps.googleapis.com/maps/api/js?sensor=false&#038;ver=4.1.1'></script>
