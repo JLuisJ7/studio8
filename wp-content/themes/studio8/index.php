@@ -22,13 +22,13 @@
 <![endif]-->
 
 
-
 <link rel='stylesheet' id='Open+Sans:100,300,n,i,b,bi,-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A100%2C300%2Cn%2Ci%2Cb%2Cbi%2C&#038;ver=4.1.1' type='text/css' media='all' />
 <link rel='stylesheet' id='Montserrat:100,300,n,i,b,bi,-css'  href='http://fonts.googleapis.com/css?family=Montserrat%3A100%2C300%2Cn%2Ci%2Cb%2Cbi%2C&#038;ver=4.1.1' type='text/css' media='all' />
 
-<link rel='stylesheet' id='ot-dynamic-sbwp_custom_css-css'  href='http://themes.simonbouchard.com/studio8/wp-content/themes/studio8/dynamic.css?ver=2.5.0' type='text/css' media='all' />
-<link rel='stylesheet' id='stylesheet-css'  href='http://themes.simonbouchard.com/studio8/wp-content/themes/studio8/library/css/style.css?ver=4.1.1' type='text/css' media='all' />
-<link rel='stylesheet' id='fa-css'  href='http://themes.simonbouchard.com/studio8/wp-content/themes/studio8/library/css/font-awesome/css/font-awesome.min.css?ver=4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='ot-dynamic-sbwp_custom_css-css'  href='<?php bloginfo( 'template_directory' ); ?>/css/dynamic.css' type='text/css' media='all' />
+
+<link rel='stylesheet' id='stylesheet-css'  href='<?php bloginfo( 'template_directory' ); ?>/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='fa-css'  href='<?php bloginfo( 'template_directory' ); ?>/css/font-awesome.min.css' type='text/css' media='all' />
 <!--[if lt IE 9]>
 <link rel='stylesheet' id='ie-only-css'  href='http://themes.simonbouchard.com/studio8/wp-content/themes/studio8/library/css/ie.css?ver=4.1.1' type='text/css' media='all' />
 <![endif]-->

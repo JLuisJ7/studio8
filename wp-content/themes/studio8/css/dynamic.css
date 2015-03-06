@@ -1,0 +1,25 @@
+/* BEGIN sbwp_custom_css */
+html, body {
+    font-family: "futura-pt", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "futura-pt", sans-serif;
+    font-weight: 500;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;    
+}
+
+.nav li a {
+    font-weight: 500;    
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;  
+}
+
+strong {
+   font-family: "futura-pt", sans-serif;
+   font-weight: 500 !important;
+}
+/* END sbwp_custom_css */
