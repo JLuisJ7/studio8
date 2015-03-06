@@ -20,12 +20,9 @@
 <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-<link rel="pingback" href="http://themes.simonbouchard.com/studio8/xmlrpc.php">
 
-<script src="//use.typekit.net/xit8ted.js"></script>
-<script>try{Typekit.load();}catch(e){}</script><link rel="alternate" type="application/rss+xml" title="Studio 8 &raquo; Feed" href="http://themes.simonbouchard.com/studio8/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Studio 8 &raquo; Comments Feed" href="http://themes.simonbouchard.com/studio8/comments/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Studio 8 &raquo; Home Comments Feed" href="http://themes.simonbouchard.com/studio8/home/feed/" />
+
+
 <link rel='stylesheet' id='Open+Sans:100,300,n,i,b,bi,-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A100%2C300%2Cn%2Ci%2Cb%2Cbi%2C&#038;ver=4.1.1' type='text/css' media='all' />
 <link rel='stylesheet' id='Montserrat:100,300,n,i,b,bi,-css'  href='http://fonts.googleapis.com/css?family=Montserrat%3A100%2C300%2Cn%2Ci%2Cb%2Cbi%2C&#038;ver=4.1.1' type='text/css' media='all' />
 
