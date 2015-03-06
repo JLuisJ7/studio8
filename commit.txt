@@ -1,0 +1,47 @@
+commit 8978b0bf370cc4aab3b5433bd3f2189cf869f5be
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Fri Mar 6 17:20:53 2015 -0500
+
+    script player eliminado
+
+commit 1baa4dfe133944dc945049f03d2bb56003dab75d
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Fri Mar 6 17:18:18 2015 -0500
+
+    .js agregados
+
+commit d6aee178ac9e1c5e40bc86363ecc017b7751d4e0
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Fri Mar 6 17:08:20 2015 -0500
+
+    font aw agregado
+
+commit 2e1c2ede882038a9ea05fb0182b543421dacfb70
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Fri Mar 6 17:02:02 2015 -0500
+
+    eliminando typekit
+
+commit 31d60ce98bd241068872180d4a36ba11f4b43a49
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Fri Mar 6 17:00:37 2015 -0500
+
+    eliminado script y css cf7
+
+commit cdcc763deda155ba17b40e87d2b3694f1c5d18ae
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Fri Mar 6 16:59:01 2015 -0500
+
+    index.php copiado
+
+commit ca7edd099a2ea6107ba2631a0721a72e86906867
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Fri Mar 6 13:28:54 2015 -0500
+
+    studio8.sql script generado
+
+commit 93a31ad6bfd9451831f01062367f7037f82b9c7b
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Fri Mar 6 13:24:04 2015 -0500
+
+    Inicio del Theme

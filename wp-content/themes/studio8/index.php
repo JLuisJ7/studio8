@@ -36,9 +36,9 @@
 <script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/plugins.js'></script>
 
 
-            <style>
+<style>
 
-/* Global
+/* Global para el menu
 /***************************************************************/
 .wrap {
 	max-width: 1320px;
@@ -443,25 +443,25 @@ body.inverted #contactMapHolder {
     </div>
 
 
-<script type='text/javascript' src='http://themes.simonbouchard.com/studio8/wp-content/plugins/bj-lazy-load/js/combined.min.js?ver=0.7.5'></script>
+<script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/combined.min.js?ver=0.7.5'></script>
 <script type='text/javascript' src='http://themes.simonbouchard.com/studio8/wp-includes/js/comment-reply.min.js?ver=4.1.1'></script>
 <script type='text/javascript' src='http://maps.googleapis.com/maps/api/js?sensor=false&#038;ver=4.1.1'></script>
-<script type='text/javascript' src='http://themes.simonbouchard.com/studio8/wp-content/themes/studio8/library/js/libs/jquery.easing.1.3.js?ver=1.3'></script>
-<script type='text/javascript' src='http://themes.simonbouchard.com/studio8/wp-content/themes/studio8/library/js/libs/classie.js?ver=1.0'></script>
-<script type='text/javascript' src='http://themes.simonbouchard.com/studio8/wp-content/themes/studio8/library/js/libs/jquery.cycle.all.js?ver=3.0.3'></script>
-<script type='text/javascript' src='http://themes.simonbouchard.com/studio8/wp-includes/js/masonry.min.js?ver=3.1.2'></script>
-<script type='text/javascript' src='http://themes.simonbouchard.com/studio8/wp-content/themes/studio8/library/js/libs/owl.carousel.min.js?ver=2.0.8'></script>
-<script type='text/javascript' src='http://themes.simonbouchard.com/studio8/wp-content/themes/studio8/library/js/libs/jquery.maximage.js?ver=2.0.8'></script>
+<script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/jquery.easing.1.3.js?ver=1.3'></script>
+<script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/classie.js?ver=1.0'></script>
+<script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/query.cycle.all.js?ver=3.0.3'></script>
+<script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/masonry.min.js?ver=3.1.2'></script>
+<script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/owl.carousel.min.js?ver=2.0.8'></script>
+<script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/jquery.maximage.js?ver=2.0.8'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var mejsL10n = {"language":"en-US","strings":{"Close":"Close","Fullscreen":"Fullscreen","Download File":"Download File","Download Video":"Download Video","Play\/Pause":"Play\/Pause","Mute Toggle":"Mute Toggle","None":"None","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Unmute":"Unmute","Mute":"Mute","Captions\/Subtitles":"Captions\/Subtitles"}};
 var _wpmejsSettings = {"pluginPath":"\/studio8\/wp-includes\/js\/mediaelement\/"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='http://themes.simonbouchard.com/studio8/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=2.15.1'></script>
-<script type='text/javascript' src='http://themes.simonbouchard.com/studio8/wp-includes/js/mediaelement/wp-mediaelement.js?ver=4.1.1'></script>
-<script type='text/javascript' src='http://themes.simonbouchard.com/studio8/wp-content/themes/studio8/library/js/libs/syntaxhighlighter.js?ver=4.1.1'></script>
-<script type='text/javascript' src='http://themes.simonbouchard.com/studio8/wp-content/themes/studio8/library/js/scripts.js?ver=4.1.1'></script>
+<script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/mediaelement-and-player.min.js?ver=2.15.1'></script>
+<script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/wp-mediaelement.js?ver=4.1.1'></script>
+<script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/syntaxhighlighter.js?ver=4.1.1'></script>
+<script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/scripts.js?ver=4.1.1'></script>
 
 	</body>
 </html>
