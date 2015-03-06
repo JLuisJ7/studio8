@@ -443,12 +443,13 @@ body.inverted #contactMapHolder {
     </div>
 
 
-<script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/combined.min.js?ver=0.7.5'></script>
-<script type='text/javascript' src='http://themes.simonbouchard.com/studio8/wp-includes/js/comment-reply.min.js?ver=4.1.1'></script>
+<script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/combined.min.js'></script>
+<script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/comment-reply.min.js?ver=4.1.1'></script>
 <script type='text/javascript' src='http://maps.googleapis.com/maps/api/js?sensor=false&#038;ver=4.1.1'></script>
 <script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/jquery.easing.1.3.js?ver=1.3'></script>
 <script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/classie.js?ver=1.0'></script>
-<script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/query.cycle.all.js?ver=3.0.3'></script>
+
+<script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/jquery.cycle.all.js'></script>
 <script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/masonry.min.js?ver=3.1.2'></script>
 <script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/owl.carousel.min.js?ver=2.0.8'></script>
 <script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/jquery.maximage.js?ver=2.0.8'></script>
