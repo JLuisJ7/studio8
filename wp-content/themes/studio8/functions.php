@@ -91,4 +91,42 @@ function custom_pagination($numpages = '', $pagerange = '', $paged='') {
   }
  
 }
+
+/*-----------------------------------------------------------------------------------*/
+/*  Custom Post Types & Taxonomies
+/*-----------------------------------------------------------------------------------*/
+
+add_action( 'init', 'wpex_create_post_types' );
+function wpex_create_post_types() {
+  //exposicion post type
+  register_post_type( 'Portafolio',
+    array(
+      'labels' => array(
+      'name' => __( 'Portafolio', 'workz' ),
+      'singular_name' => __( 'portafolio', 'workz' ),    
+      'add_new' => _x( 'Agregar portafolio', 'producto', 'workz' ),
+      'add_new_item' => __( 'Agregar nuevo portafolio', 'workz' ),
+      'edit_item' => __( 'Editar portafolio', 'workz' ),
+      'new_item' => __( 'Nuevo portafolio Project', 'workz' ),
+      'view_item' => __( 'Ver portafolio', 'workz' ),
+      'search_items' => __( 'Buscar portafolio', 'workz' ),
+      'not_found' =>  __( 'No se encontraron portafolio', 'workz' ),
+      'not_found_in_trash' => __( 'No se econtraron portafolios en la papelera', 'workz' ),
+      'parent_item_colon' => ''
+      
+      ),
+      'public' => true,
+      'supports' => array('title','editor','thumbnail','tags'),
+      'query_var' => true,
+      'rewrite' => array( 'slug' => 'portafolio' ),/*
+      'menu_icon' => get_bloginfo('template_url').'/images/icons/agregar_icon.png',*/
+     
+    )   
+    );
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*  Soupport par excerpt
+/*-----------------------------------------------------------------------------------*/
+add_post_type_support('page', 'excerpt');
 ?>
