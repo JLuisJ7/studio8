@@ -29,7 +29,7 @@
 
 <link rel='stylesheet' id='stylesheet-css'  href='<?php bloginfo( 'template_directory' ); ?>/css/style.css' type='text/css' media='all' />
 <link rel='stylesheet' id='fa-css'  href='<?php bloginfo( 'template_directory' ); ?>/css/font-awesome.min.css' type='text/css' media='all' />
-
+<?php wp_head(); ?>
 <script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/jquery.js'></script>
 <script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/jquery-migrate.min.js'></script>
 <script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/jwplayer.js'></script>
@@ -103,5 +103,71 @@ body.inverted #contactMapHolder {
 	margin-bottom: 12px;
 }
 </style>
+
 </head>
-<?php wp_head(); ?>
+
+<?php if (is_home()): ?>
+<body class="home page page-id-7 page-template page-template-page-slider page-template-page-slider-php inverted curtain-on mobile iphone">	
+<?php else : ?>
+<body class="page page-id-612 page-parent page-template page-template-page-fullwidth page-template-page-fullwidth-php normal curtain-on desktop">
+<?php endif ?>
+
+
+	<div class="overlay-target">
+<?php if (is_home()): ?>
+	<header class="header scroll inverted" role="banner">
+
+			<div class="wrap cf">
+
+				<div class="brand">
+										<a href="http://themes.simonbouchard.com/studio8" title=""><img class="normal" src="http://themes.simonbouchard.com/studio8/wp-content/themes/studio8/library/images/logo.png" alt="" /><img class="inverted" src="http://themes.simonbouchard.com/studio8/wp-content/themes/studio8/library/images/logo_inverted.png" alt="" /></a>
+				</div>
+
+				<nav class="secondary" role="navigation">
+					<ul id="menu-secondary-navigation" class="nav cf"><li id="menu-item-1397" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1397"><a href="https://twitter.com/simonbouchard"><i class="fa fa-twitter"></i></a></li>
+<li id="menu-item-1415" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1415"><a href="#search"><i class="fa fa-search"></i></a></li>
+</ul>				</nav>
+
+				<nav class="primary" role="navigation">
+					
+					<?php wp_nav_menu(array('theme_location' => 'menu-header','menu_id' => 'menu', 'menu_class' => 'eleven columns','container' => '','items_wrap'      => '<ul id="menu-main-navigation" class="nav cf">%3$s</ul>',)); ?>
+					</nav>
+
+				<nav class="mobile">
+					<?php wp_nav_menu(array('theme_location' => 'menu-header','menu_id' => 'menu', 'menu_class' => 'eleven columns','container' => '','items_wrap'      => '<ul id="menu-main-navigation-1" class="mobile">%3$s</ul>',)); ?>
+				</nav>
+
+				<div class="mobile-trigger"><span><i class="fa fa-lg fa-bars"></i></span></div>
+
+			</div>
+
+		</header>
+<?php else : ?>
+<header class="header scroll normal animated headroom--top slideDown" role="banner">
+
+			<div class="wrap cf">
+
+				<div class="brand">
+										<a href="http://themes.simonbouchard.com/studio8" title=""><img class="normal" src="http://themes.simonbouchard.com/studio8/wp-content/themes/studio8/library/images/logo.png" alt=""><img class="inverted" src="http://themes.simonbouchard.com/studio8/wp-content/themes/studio8/library/images/logo_inverted.png" alt=""></a>
+				</div>
+
+				<nav class="secondary" role="navigation">
+					<ul id="menu-secondary-navigation" class="nav cf"><li id="menu-item-1397" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1397"><a href="https://twitter.com/simonbouchard"><i class="fa fa-twitter"></i></a></li>
+<li id="menu-item-1415" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1415"><a href="#search"><i class="fa fa-search"></i></a></li>
+</ul>				</nav>
+
+				<nav class="primary" role="navigation">
+					<?php wp_nav_menu(array('theme_location' => 'menu-header','menu_id' => 'menu', 'menu_class' => 'eleven columns','container' => '','items_wrap'      => '<ul id="menu-main-navigation" class="nav cf">%3$s</ul>',)); ?>
+				</nav>
+
+				<nav class="mobile">
+					<?php wp_nav_menu(array('theme_location' => 'menu-header','menu_id' => 'menu', 'menu_class' => 'eleven columns','container' => '','items_wrap'      => '<ul id="menu-main-navigation-1" class="mobile">%3$s</ul>',)); ?>					
+				</nav>
+
+				<div class="mobile-trigger"><span><i class="fa fa-lg fa-bars"></i></span></div>
+
+			</div>
+
+		</header>
+<?php endif ?>
+		
