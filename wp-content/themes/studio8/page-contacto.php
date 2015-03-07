@@ -20,19 +20,9 @@
 	<?php endwhile; ?>		
 <?php endif ?>
  </div>
-<div class="one_half last " style=""> 
+<div class="one_half last " style="">            
 
-
-            <iframe id="map-canvas" src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d31212.27901427288!2d-77.0236395!3d-12.0754905!3m2!1i1024!2i768!4f13.1!2m1!1sClinica+Internacional+(sede+San+Borja)!5e0!3m2!1ses-419!2spe!4v1425598897186"  frameborder="0" style="height: 400px;width:100%; position: relative; overflow: hidden; transform: translateZ(0px); background-color: rgb(229, 227, 223);"></iframe>
-
-           
-<h3>Contáctenos</h3>
-<p>129 rue de la Commune<br />
-Montreal, Quebec<br />
-H3K 1B8</p>
-<p><i class="fa fa-phone"></i>&nbsp; (514) 888-8888<br />
-<i class="fa fa-fax"></i>&nbsp; (514) 888-9999</p>
-<p><i class="fa fa-paper-plane-o"></i>&nbsp; <a href="#" class="link">hello@yourcompany.com</a></p>
+           <?php dynamic_sidebar( 'sidebar-1' ); ?>
  </div><div class="cf"></div>
  </div></div>
 

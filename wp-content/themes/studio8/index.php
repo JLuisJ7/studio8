@@ -84,7 +84,7 @@
 </div>
  </div>
 <div class="row cf" style="background-color: transparent;background-size: auto;text-align: center;padding: 48px 0;"><div class="wrap"> 
-<div class="shortcode_text_block" style="background: transparent;width:70%;"><h3 class="title" style="">Let's work together</h3><p class="lead" style="color:;">Ocean burst by, extra feedback goodness, quality plush squeezable terrific easily.<div class="clear cf" style="margin-top:24px;margin-bottom:0"></div><a href="#" target="_self" class="btn medium center black" style="">Contact us<i class="fa fa-fx fa-envelope" style=""></i></a></p></div>
+<div class="shortcode_text_block" style="background: transparent;width:70%;"><h3 class="title" style="">Let's work together</h3><p class="lead" style="color:;">Ocean burst by, extra feedback goodness, quality plush squeezable terrific easily.<div class="clear cf" style="margin-top:24px;margin-bottom:0"></div><a href="<?php echo get_option('home'); ?>/contacto" target="_self" class="btn medium center black" style="">Contactenos<i class="fa fa-fx fa-envelope" style=""></i></a></p></div>
  </div></div>
 
     
