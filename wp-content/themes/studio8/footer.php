@@ -11,9 +11,6 @@
               	<span class='shortcode_social_icon_holder normal_social' >
               		<a href='https://twitter.com/simonbouchard' target='_self'><i class='fa fa-twitter  simple_social' style='font-size: 24px;'></i></a>
               	</span>
-              	<span class='shortcode_social_icon_holder normal_social' >
-              		<a href='https://www.behance.net/simonbouchard' target='_self'><i class='fa fa-behance  simple_social' style='font-size: 24px;'></i></a>
-              	</span>
           	</div>
 		</div>
 		<div id="nav_menu-3" class="widget widget_nav_menu">
