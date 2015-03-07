@@ -104,13 +104,13 @@ function wpex_create_post_types() {
       'labels' => array(
       'name' => __( 'Portafolio', 'workz' ),
       'singular_name' => __( 'portafolio', 'workz' ),    
-      'add_new' => _x( 'Agregar portafolio', 'producto', 'workz' ),
+      'add_new' => _x( 'Agregar portafolio', 'portafolio', 'workz' ),
       'add_new_item' => __( 'Agregar nuevo portafolio', 'workz' ),
       'edit_item' => __( 'Editar portafolio', 'workz' ),
       'new_item' => __( 'Nuevo portafolio Project', 'workz' ),
       'view_item' => __( 'Ver portafolio', 'workz' ),
       'search_items' => __( 'Buscar portafolio', 'workz' ),
-      'not_found' =>  __( 'No se encontraron portafolio', 'workz' ),
+      'not_found' =>  __( 'No se encontraron portafolios', 'workz' ),
       'not_found_in_trash' => __( 'No se econtraron portafolios en la papelera', 'workz' ),
       'parent_item_colon' => ''
       
