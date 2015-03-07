@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 
-		<div id="container" class="m-all t-all d-all">
+
 
   <div class="loader">
     <img src="http://themes.simonbouchard.com/studio8/wp-content/themes/studio8/library/images/loading.svg" />

@@ -29,12 +29,12 @@
 
 	</div>
 
-	<div class="curtain-container">
+	<!--<div class="curtain-container">
 		<div class="curtain-top"></div>
 		<div class="curtain-right"></div>
 		<div class="curtain-bottom"></div>
 		<div class="curtain-left"></div>
-	</div>
+	</div>-->
 
 	<div id="full-search">
 	    <form type="search" method="get" action="#" >

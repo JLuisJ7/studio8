@@ -5,7 +5,8 @@
 ?>
 
 <?php get_header() ?>
-<div class="inner-content" style="  margin-top: 12px; padding-top: 30px;">
+
+  <div class="main inner-content">
 
     <div class="full-content">
 
