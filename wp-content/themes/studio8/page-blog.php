@@ -73,7 +73,7 @@ global $post;
 $fullimage = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );
             					$urlfullimage = $fullimage['0'];  
      ?>
-<article id="post-188" class="post-188 post type-post status-publish format-standard has-post-thumbnail hentry category-news tag-negative-space cf" style="background: url('<?php echo $urlfullimage;  ?>') no-repeat 0 0;">
+<article id="post-188" class="post-188 post type-post status-publish format-standard has-post-thumbnail hentry category-news tag-negative-space cf" style="background: url('<?php echo $urlfullimage;  ?>') right no-repeat;background-size:cover;">
 				<div class="post-excerpt m-all t-2of3 d-3of7">
 					<div class="post-header">
 						<div>

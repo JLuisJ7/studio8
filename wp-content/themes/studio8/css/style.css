@@ -867,7 +867,7 @@ them however you see fit.
   .d-3of7 {
     float: left;
     padding-right: 0.75em;
-    width: 42.8571429%;
+    width: 65%;
   }
 
   .d-4of7 {
@@ -3969,7 +3969,7 @@ body.inverted header.header.headroom--not-top .mobile-trigger span i {
   max-width: 80%;
 }
 .posts.normal > .hentry .post-excerpt {
-  padding: 72px 0 72px 72px;
+  padding: 30px 0 30px 30px;
   background: rgba(255, 255, 255, 0.9);
 }
 .posts.normal > .hentry .post-header {
