@@ -129,4 +129,5 @@ function wpex_create_post_types() {
 /*  Soupport par excerpt
 /*-----------------------------------------------------------------------------------*/
 add_post_type_support('page', 'excerpt');
+ remove_filter('the_excerpt', 'wpautop');
 ?>
