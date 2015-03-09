@@ -4,7 +4,8 @@
 
 
   <div class="loader">
-    <img src="http://themes.simonbouchard.com/studio8/wp-content/themes/studio8/library/images/loading.svg" />
+
+    <img src="<?php bloginfo('template_url'); ?>/images/loading.svg" />
   </div>
   
     <a href="#" id="arrow_right"><i class="fa fa-long-arrow-right"></i></a>
@@ -12,9 +13,9 @@
     <div id="maximage">
 
           <div>
-        <img src="http://themes.simonbouchard.com/studio8/wp-content/uploads/sites/2/2014/11/vlcsnap-2014-12-04-12h07m50s253.png">
-                  <video id="video" autoplay loop poster="http://themes.simonbouchard.com/studio8/wp-content/uploads/sites/2/2014/11/vlcsnap-2014-12-04-12h07m50s253.png">
-                                      <source src="http://themes.simonbouchard.com/studio8/wp-content/uploads/sites/2/2014/11/video.mp4" type="video/mp4">
+        <img src="<?php bloginfo('template_url'); ?>/images/img-video.png">
+                  <video id="video" autoplay loop poster="<?php bloginfo('template_url'); ?>/images/img-video.png">
+                                      <source src="<?php bloginfo('template_url'); ?>/video/video.mp4" type="video/mp4">
                       </video>
                 <div class="in-slide-content fade-enable">
           <section class="intro">
@@ -28,7 +29,7 @@
         </div>
               </div>
             <div>
-        <img src="http://themes.simonbouchard.com/studio8/wp-content/uploads/sites/2/2014/12/bacon-fast-food-hamburger-3595.jpg">
+        <img src="<?php bloginfo('template_url'); ?>/images/hamburger.jpg">
                 <div class="in-slide-content fade-enable">
           <section class="intro">
                           <h1>Branding Identity</h1>
@@ -41,7 +42,7 @@
         </div>
               </div>
             <div>
-        <img src="http://themes.simonbouchard.com/studio8/wp-content/uploads/sites/2/2014/11/6e609595.jpeg">
+        <img src="<?php bloginfo('template_url'); ?>/images/night.jpeg">
                 <div class="in-slide-content fade-enable">
           <section class="intro">
                           <h1>Print</h1>
@@ -54,7 +55,7 @@
         </div>
               </div>
             <div>
-        <img src="http://themes.simonbouchard.com/studio8/wp-content/uploads/sites/2/2014/11/howard_taylor_featured.jpg">
+        <img src="<?php bloginfo('template_url'); ?>/images/featured.jpg">
                 <div class="in-slide-content fade-enable">
           <section class="intro">
                           <h1>Interactive Design</h1>
@@ -77,10 +78,10 @@
  </div></div>
 <div class="row cf" style="background-size: auto;"> 
 <div class='block-grid projects-listing columns-2 cf'>
-<article class='block-item half-width half-height overlay-expand cf cat_9' ><a href='http://themes.simonbouchard.com/studio8/projects/new-york/' rel='bookmark' target='_self' title='New York'><div class='over'></div><h5>New York<i>Creative Direction</i></h5><div class='image' style='background-image: url(http://themes.simonbouchard.com/studio8/wp-content/uploads/sites/2/2014/11/6e609595.jpeg);'></div></a></article>
-<article class='block-item half-width half-height overlay-expand cf cat_9 cat_11' ><a href='http://themes.simonbouchard.com/studio8/projects/oldport-restaurant/' rel='bookmark' target='_self' title='Oldport Restaurant'><div class='over'></div><h5>Oldport Restaurant<i>Creative Direction, Interactive Design</i></h5><div class='image' style='background-image: url(http://themes.simonbouchard.com/studio8/wp-content/uploads/sites/2/2014/12/red-wine-tapas-3540.jpg);'></div></a></article>
-<article class='block-item half-width half-height overlay-expand cf cat_8 cat_13' ><a href='http://themes.simonbouchard.com/studio8/projects/suavve-magazine/' rel='bookmark' target='_self' title='Suavve Magazine'><div class='over'></div><h5>Suavve Magazine<i>Branding Identity, Typography</i></h5><div class='image' style='background-image: url(http://themes.simonbouchard.com/studio8/wp-content/uploads/sites/2/2014/12/arms-crossed-bow-tie-braces-1702.jpg);'></div></a></article>
-<article class='block-item half-width half-height overlay-expand cf cat_8 cat_11' ><a href='http://themes.simonbouchard.com/studio8/projects/le-roi-du-burger/' rel='bookmark' target='_self' title='Le Roi du Burger'><div class='over'></div><h5>Le Roi du Burger<i>Branding Identity, Interactive Design</i></h5><div class='image' style='background-image: url(http://themes.simonbouchard.com/studio8/wp-content/uploads/sites/2/2014/12/bacon-fast-food-hamburger-3595.jpg);'></div></a></article>
+<article class='block-item half-width half-height overlay-expand cf cat_9' ><a href='#' rel='bookmark' target='_self' title='New York'><div class='over'></div><h5>New York<i>Creative Direction</i></h5><div class='image' style='background-image: url();'></div></a></article>
+<article class='block-item half-width half-height overlay-expand cf cat_9 cat_11' ><a href='#' rel='bookmark' target='_self' title='Oldport Restaurant'><div class='over'></div><h5>Oldport Restaurant<i>Creative Direction, Interactive Design</i></h5><div class='image' style='background-image: url();'></div></a></article>
+<article class='block-item half-width half-height overlay-expand cf cat_8 cat_13' ><a href='#' rel='bookmark' target='_self' title='Suavve Magazine'><div class='over'></div><h5>Suavve Magazine<i>Branding Identity, Typography</i></h5><div class='image' style='background-image: url();'></div></a></article>
+<article class='block-item half-width half-height overlay-expand cf cat_8 cat_11' ><a href='#' rel='bookmark' target='_self' title='Le Roi du Burger'><div class='over'></div><h5>Le Roi du Burger<i>Branding Identity, Interactive Design</i></h5><div class='image' style='background-image: url();'></div></a></article>
 </div>
  </div>
 <div class="row cf" style="background-color: transparent;background-size: auto;text-align: center;padding: 48px 0;"><div class="wrap"> 
