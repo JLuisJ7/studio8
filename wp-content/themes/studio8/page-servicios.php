@@ -43,8 +43,7 @@
 						<?php
 							$args = array(
 								'post_type' => 'page',
-								'posts_per_page' => 1,
-								'ID' => 74,
+								'page_id' => 74,
 								);
 								$query = new WP_Query( $args );
 								if ( $query->have_posts() ) : ?>
