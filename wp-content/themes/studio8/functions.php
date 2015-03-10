@@ -130,4 +130,16 @@ function wpex_create_post_types() {
 /*-----------------------------------------------------------------------------------*/
 add_post_type_support('page', 'excerpt');
  remove_filter('the_excerpt', 'wpautop');
+
+//Buscar sólo posts o entradas
+function buscador_mostrar_solo_posts($query)
+{
+if ($query->is_search)
+{
+$query->set('post_type', 'post');
+}
+return $query;
+}
+add_filter('pre_get_posts', 'buscador_mostrar_solo_posts');
+
 ?>

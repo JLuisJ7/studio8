@@ -107,10 +107,10 @@ $fullimage = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'ful
  
   <?php else:  ?>
     <p><?php _e( 'Sorry, no posts matched.' ); ?></p>
-  <?php endif; ?>
+  <?php endif; ?></div>
 	</nav><!--/ .navigation -->								
 						
-				</div>
+				
 
 			
 		</div>

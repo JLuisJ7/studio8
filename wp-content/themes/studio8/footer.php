@@ -38,7 +38,7 @@
 	</div>
 
 	<div id="full-search">
-	    <form type="search" method="get" action="#" >
+	    <form type="search" method="get" action="<?php bloginfo('siteurl'); ?>" >
 	      <input type="search" value="" name="s" placeholder="Escribe aquí tu búsqueda" autocomplete="off" />
 	      <button type="submit" class="btn black">Buscar</button>
 	    </form>	    
