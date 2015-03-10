@@ -2881,7 +2881,9 @@ body.admin-bar .curtain-top {
   width: 30%;
   margin-right: 5%;
 }
-
+.one_third:nth-child(3n+1){
+  margin-right: 0;
+}
 .two_third {
   width: 65%;
   margin-right: 5%;
