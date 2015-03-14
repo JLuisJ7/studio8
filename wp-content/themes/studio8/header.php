@@ -113,6 +113,8 @@ body.inverted #contactMapHolder {
 <body class="search search-results normal curtain-on desktop pace-done">
 <?php elseif (is_single()): ?>
 <body class="single single-post postid-551 single-format-standard normal curtain-on desktop">
+<?php elseif (is_404()): ?>
+<body class="error404 normal curtain-on desktop pace-done">
 <?php else : ?>
 <body class="page page-id-612 page-parent page-template page-template-page-fullwidth page-template-page-fullwidth-php normal curtain-on desktop">
 <?php endif ?>
