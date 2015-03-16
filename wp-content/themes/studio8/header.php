@@ -22,6 +22,8 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
+<script src="<?php bloginfo('template_url'); ?>/js/xit8ted.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
 
 <link rel='stylesheet' id='Open+Sans:100,300,n,i,b,bi,-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A100%2C300%2Cn%2Ci%2Cb%2Cbi%2C&#038;ver=4.1.1' type='text/css' media='all' />
 <link rel='stylesheet' id='Montserrat:100,300,n,i,b,bi,-css'  href='http://fonts.googleapis.com/css?family=Montserrat%3A100%2C300%2Cn%2Ci%2Cb%2Cbi%2C&#038;ver=4.1.1' type='text/css' media='all' />
