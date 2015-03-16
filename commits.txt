@@ -1,0 +1,198 @@
+commit 28b2b209f0a453cbee5b34e5575626a711c45836
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Mon Mar 16 11:05:04 2015 -0500
+
+    paginación del blog terminado
+
+commit 749091cda889af1d69820c962f8f1d3520422f74
+Merge: e287952 96e8f9d
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Mon Mar 16 09:48:46 2015 -0500
+
+    Merge branch 'master' of https://github.com/JLuisJ7/studio8
+
+commit e2879527319f7004dc40905e5d9c4cacef5fd0e3
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Mon Mar 16 09:48:40 2015 -0500
+
+    cambios
+
+commit 96e8f9d7ea6207d235b98f8f98e31b5c58ab503a
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Sat Mar 14 13:14:26 2015 -0500
+
+    page 404 terminado
+
+commit 085ded894b8434f58b27c097d797165f17ae6dfa
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Tue Mar 10 13:07:33 2015 -0500
+
+    script actualizado
+
+commit be82637a2cc460bf7996c93d601b8ea70b71709d
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Tue Mar 10 13:04:34 2015 -0500
+
+    search.php en curso
+
+commit b65b323c44ac8d0e266a59ad99150d051745a753
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Tue Mar 10 10:47:08 2015 -0500
+
+    page empresa al 98%
+
+commit 7d975105ef9a9fce02f80892b5728ae07b331662
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Tue Mar 10 10:41:49 2015 -0500
+
+    page empresa al 91%
+
+commit aee96d02113bd6e82f31be1f5fc8fd20aeb47fce
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Tue Mar 10 10:41:38 2015 -0500
+
+    page empresa al 90%
+
+commit 8a483c232b13b087fc762c0c5fd6a65627889c47
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Tue Mar 10 10:31:44 2015 -0500
+
+    page empresa al 80%
+
+commit 6e7150d611772465803aa9ff57757cd35cdc2023
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Mon Mar 9 18:17:32 2015 -0500
+
+    script actualizado
+
+commit 9a5af0629ecdab7a0fa02d78d3e1d963da05219a
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Mon Mar 9 18:14:58 2015 -0500
+
+    page empresa.php al 50%
+
+commit 30dd4b14d7d777dcc4c1dd677e3505da4c3e6c2b
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Mon Mar 9 17:07:39 2015 -0500
+
+    page servicios terminado
+
+commit c4bd5a94bd2455487d4c7f021c8bc37ff6a0cdff
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Mon Mar 9 14:57:38 2015 -0500
+
+    Page servicios y blog maquetado
+
+commit bd0b76707ca0c8e7ab9d3fa1ff76268284e097e8
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Sun Mar 8 22:12:39 2015 -0500
+
+    index ordenado
+
+commit 301140f2de85bf98d802bd20c65e4440beaeab63
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Sun Mar 8 22:01:23 2015 -0500
+
+    elimindo enlaces de imagenes
+
+commit 16441d9ea5ae56ad43060d883c374facaa3d5030
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Sat Mar 7 15:44:19 2015 -0500
+
+    script actualizado
+
+commit f8f1cfe37936ac0d12b8b9299b8cfc08cfadf22e
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Sat Mar 7 11:45:45 2015 -0500
+
+    single-portafolio.php creado
+
+commit c04da6e015330cd409aa98c8066d1cb94f038937
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Sat Mar 7 11:08:41 2015 -0500
+
+    pagina portadolio creado
+
+commit c66aea0a17f882b4c2c294826ae8083d6a4d2367
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Sat Mar 7 00:27:05 2015 -0500
+
+    page-blog.php al 80%
+
+commit 993e78d5e8b8e393e101e296f53fe6042df977d8
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Fri Mar 6 23:08:02 2015 -0500
+
+    Widgets activado
+
+commit 6b92c2827ef52cfae5cd98492a4912e1086e4fca
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Fri Mar 6 19:42:56 2015 -0500
+
+    page-contacto casi terminado
+
+commit 1ad32f45bf4a377caa9540bfe66f59f79b1ab95d
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Fri Mar 6 18:01:52 2015 -0500
+
+    header.php y footer,php creados
+
+commit 4f20209746d155c09927e4ea7b68e9e9ad59e61c
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Fri Mar 6 17:47:43 2015 -0500
+
+    index problema solucionado
+
+commit 171937c2f041a76bddd1c5d84d67bb53b69f7d77
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Fri Mar 6 17:33:43 2015 -0500
+
+    scripts footer agregados
+
+commit 8978b0bf370cc4aab3b5433bd3f2189cf869f5be
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Fri Mar 6 17:20:53 2015 -0500
+
+    script player eliminado
+
+commit 1baa4dfe133944dc945049f03d2bb56003dab75d
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Fri Mar 6 17:18:18 2015 -0500
+
+    .js agregados
+
+commit d6aee178ac9e1c5e40bc86363ecc017b7751d4e0
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Fri Mar 6 17:08:20 2015 -0500
+
+    font aw agregado
+
+commit 2e1c2ede882038a9ea05fb0182b543421dacfb70
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Fri Mar 6 17:02:02 2015 -0500
+
+    eliminando typekit
+
+commit 31d60ce98bd241068872180d4a36ba11f4b43a49
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Fri Mar 6 17:00:37 2015 -0500
+
+    eliminado script y css cf7
+
+commit cdcc763deda155ba17b40e87d2b3694f1c5d18ae
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Fri Mar 6 16:59:01 2015 -0500
+
+    index.php copiado
+
+commit ca7edd099a2ea6107ba2631a0721a72e86906867
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Fri Mar 6 13:28:54 2015 -0500
+
+    studio8.sql script generado
+
+commit 93a31ad6bfd9451831f01062367f7037f82b9c7b
+Author: jluisj7 <jluisjab7@gmail.com>
+Date:   Fri Mar 6 13:24:04 2015 -0500
+
+    Inicio del Theme
