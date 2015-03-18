@@ -1,16 +1,21 @@
 <?php get_header(); ?>
 <div class="posts inner-content">
+	<?php if (have_posts()): ?>
+	<?php while(have_posts()): the_post(); ?>
+	<?php 
+		$fullimage = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );
+        $urlfullimage = $fullimage['0']; 
+	 ?>
 	<div class="entry-header">		
-		<img width="1920" height="1280" src="<?php bloginfo('template_url'); ?>/images/architecture-bridge-california-3367.jpg" class="attachment-full wp-post-image" alt="" no-lazy="" />
+		<img width="1920" height="1280" src="<?php echo $urlfullimage; ?>" class="attachment-full wp-post-image" alt="" no-lazy="" />
 	</div>
 
 	<div class="main wrap">
-	<?php if (have_posts()): ?>
-		<?php while(have_posts()): the_post(); ?>
+	
 		<article id="post-551" class="post-551 post type-post status-publish format-standard has-post-thumbnail hentry category-design-principles tag-inspiration">
 			<div class="post-header">
 				<div>
-					<a href="#" rel="category tag">category</a> <span class="sep">/</span> <time><?php the_time('d \d\e F, Y') ?></time> <span class="sep">/</span>
+					<a href="#" rel="category tag"><?php the_category(', '); ?></a> <span class="sep">/</span> <time><?php the_time('d \d\e F, Y') ?></time> <span class="sep">/</span>
 					<ul class="social">
 						<li>
 							<a id="twbutton" onClick="twwindows('http://twitter.com/intent/tweet?text=<?php the_title();?>&url=<?php the_permalink(); ?>'); return false;"><span class="fa fa-twitter"></span></a>
@@ -41,8 +46,9 @@
 			</div>
 		
 		</article>
-		<?php endwhile; ?>		
-	<?php endif ?>
+		
 	</div>
+	<?php endwhile; ?>		
+	<?php endif ?>
 </div>
 <?php get_footer(); ?>

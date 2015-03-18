@@ -29,7 +29,7 @@ $urlImagenDes = wp_get_attachment_url(get_post_thumbnail_id($post->ID));
 						<img width="1280" height="1280" src="<?php echo $urlImagenDes; ?>" class="attachment-thumb-1280 wp-post-image" alt=""  />
 						<div class="post-header">
 							<div>
-								<a href="#" rel="category tag">Categoria</a> <span class="sep">/</span> <time><?php the_time('d \d\e F, Y') ?></time>
+								<a href="#" rel="category tag"><?php the_category(', '); ?></a> <span class="sep">/</span> <time><?php the_time('d \d\e F, Y') ?></time>
 							</div>
 							<h3 class="post-title">
 								<a href="<?php the_permalink();?>" target="_self" title=""><?php the_title(); ?></a>
@@ -65,7 +65,7 @@ $fullimage = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'ful
 				<div class="post-excerpt m-all t-2of3 d-3of7">
 					<div class="post-header">
 						<div>
-							<a href="#" rel="category tag">Categoria</a> <span class="sep">/</span> <time><?php the_time('d \d\e F, Y') ?></time>
+							<a href="#" rel="category tag"><?php the_category(', '); ?></a> <span class="sep">/</span> <time><?php the_time('d \d\e F, Y') ?></time>
 						</div>
 						<h3 class="post-title">
 							<a href="<?php the_permalink(); ?>" target="_self" title="<?php the_title(); ?>"><?php the_title(); ?></a>
