@@ -124,11 +124,12 @@ body.inverted #contactMapHolder {
 	<div class="overlay-target">
 <?php if (is_home()): ?>
 	<header class="header scroll inverted" role="banner">
-
-			<div class="wrap cf">
-
-				<div class="brand">
-										<a href="http://themes.simonbouchard.com/studio8" title=""><img class="normal" src="http://themes.simonbouchard.com/studio8/wp-content/themes/studio8/library/images/logo.png" alt="" /><img class="inverted" src="http://themes.simonbouchard.com/studio8/wp-content/themes/studio8/library/images/logo_inverted.png" alt="" /></a>
+		<div class="wrap cf">
+			<div class="brand">
+				<a href="<?php echo get_option('home'); ?>" title="Tresmedia">
+					<img class="normal" src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="" />
+					<img class="inverted" src="<?php bloginfo('template_url'); ?>/images/logo_inverted.png" alt="" />
+				</a>
 				</div>
 
 				<nav class="secondary" role="navigation">
@@ -156,7 +157,10 @@ body.inverted #contactMapHolder {
 			<div class="wrap cf">
 
 				<div class="brand">
-										<a href="http://themes.simonbouchard.com/studio8" title=""><img class="normal" src="http://themes.simonbouchard.com/studio8/wp-content/themes/studio8/library/images/logo.png" alt=""><img class="inverted" src="http://themes.simonbouchard.com/studio8/wp-content/themes/studio8/library/images/logo_inverted.png" alt=""></a>
+					<a href="<?php echo get_option('home'); ?>" title="Tresmedia">
+						<img class="normal" src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="" />
+						<img class="inverted" src="<?php bloginfo('template_url'); ?>/images/logo_inverted.png" alt="" />
+					</a>
 				</div>
 
 				<nav class="secondary" role="navigation">
