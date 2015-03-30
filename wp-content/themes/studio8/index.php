@@ -75,12 +75,13 @@
       </div>
     </div>
     <div class="row cf" style="background-size: auto;">
-      <div class='block-grid projects-listing columns-2 cf'>
+      <div class='block-grid projects-listing columns-3 cf'>
+
         <?php
             $the_query = new WP_Query(
               array(                    
                 'post_type' => 'portafolio',
-                'posts_per_page' => 4,
+                'posts_per_page' => -1,
                     )
             );
           ?>  
@@ -90,13 +91,14 @@
                 $fullimage = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );
                       $urlfullimage = $fullimage['0']; 
               ?>
-              <article class='block-item half-width half-height overlay-expand cf cat_9' >
-                <a href='<?php the_permalink();?>'  target='_self' title='<?php the_title(); ?>'>
+              <article class='block-item third-width third-height overlay-expand cf cat_9' >
+                <a href='<?php the_permalink();?>' rel='bookmark' target='_self' title='<?php the_title(); ?>'>
                   <div class='over'></div>
-                  <h5><?php the_title(); ?><i></i></h5>
+                  <h5><?php the_title(); ?></h5>
                   <div class='image' style='background-image: url(<?php echo $urlfullimage; ?>);'></div>
                 </a>
               </article>
+              
             <?php endwhile; ?>    
           <?php endif ?>
           <?php wp_reset_postdata(); ?>
