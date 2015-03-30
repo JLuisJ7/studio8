@@ -31,53 +31,8 @@
 							<?php endif ?>	
 				</div>
 			</div>
-			<div class="clear cf" style="margin-top:72px;margin-bottom:0"></div>
-			<div class="row cf" style="background-size: auto;">
-				<div class="wrap">
-					<h6>Nuestro Equipo</h6>
-					
-
-								
-									<?php 
-        $args = array(
-            'orderby' => 'name',
-            'post_type' => 'attachment',
-            'posts_per_page' => -1,
-            'post_parent' => 91,   // cuidado personal
-            'post_mime_type' => 'image'
-        );
-       $attachments = get_posts($args);
-        if ($attachments) {
-            foreach ($attachments as $attachment) {                            
-                $image_atts = wp_get_attachment_image_src( $attachment->ID, 'full' );
-                ?><div class="one_third " style="">
-						<div class='shortcode_team'>
-							<div class='team_inner'>
-                
-	
-										<div class='team_image'>
-									<img src="<?php echo  $image_atts[0];  ?>" data-lazy-type="image" data-lazy-src='<?php echo  $image_atts[0];  ?>' alt='<?php echo apply_filters( 'the_title', $attachment->post_title ); ?>' class='lazy lazy-hidden square' />
-								</div>
-								<div class='team_text'>
-									<div class='team_text_inner'>
-										<div class='team_title_holder'>
-											<h5 class='team_name'><?php echo apply_filters( 'the_title', $attachment->post_title ); ?></h5>
-											<span><?php echo apply_filters( 'the_content', $attachment->post_content ); ?></span>
-										</div>
-									</div>
-								</div>	
-							</div>
-						</div>
-					</div>					
-									
-											
-           <?php  }
-        }
-    ?> 
-							
-					
-				</div>
-			</div>
+			
+			
 			<div class="clear cf" style="margin-top:72px;margin-bottom:0"></div>
 			<div class="row cf" style="background-size: auto;padding: 0;">
 				<div class="wrap">
