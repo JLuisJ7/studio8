@@ -3,13 +3,13 @@
 		<div id="text-2" class="widget widget_text">
 			<div class="textwidget">
             	<span class='shortcode_social_icon_holder normal_social' >
-            		<a href='https://plus.google.com/+SimonBouchard82/posts' target='_self'><i class='fa fa-google-plus  simple_social' style='font-size: 24px;'></i></a>
+            		<a href='https://plus.google.com/u/0/105539025811866673387/posts' target='_blank'><i class='fa fa-google-plus  simple_social' style='font-size: 24px;'></i></a>
               	</span>
               	<span class='shortcode_social_icon_holder normal_social' >
-              		<a href='https://www.facebook.com/simonbouchard' target='_self'><i class='fa fa-facebook  simple_social' style='font-size: 24px;'></i></a>
+              		<a href='https://www.facebook.com/tresmediaperu' target='_blank'><i class='fa fa-facebook  simple_social' style='font-size: 24px;'></i></a>
               	</span>
               	<span class='shortcode_social_icon_holder normal_social' >
-              		<a href='https://twitter.com/simonbouchard' target='_self'><i class='fa fa-twitter  simple_social' style='font-size: 24px;'></i></a>
+              		<a href='https://twitter.com/tresmediaperu' target='_blank'><i class='fa fa-twitter  simple_social' style='font-size: 24px;'></i></a>
               	</span>
           	</div>
 		</div>

@@ -133,9 +133,22 @@ body.inverted #contactMapHolder {
 				</div>
 
 				<nav class="secondary" role="navigation">
-					<ul id="menu-secondary-navigation" class="nav cf"><li id="menu-item-1397" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1397"><a href="https://twitter.com/simonbouchard"><i class="fa fa-twitter"></i></a></li>
-<li id="menu-item-1415" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1415"><a href="#search"><i class="fa fa-search"></i></a></li>
-</ul>				</nav>
+					<ul id="menu-secondary-navigation" class="nav cf">
+						<li id="menu-item-1397" class="menu-item">
+							<a href="https://www.facebook.com/tresmediaperu" target="_blank"><i class="fa fa-facebook"></i></a>
+						</li>
+						<li id="menu-item-1397" class="menu-item">
+							<a href="https://twitter.com/tresmediaperu" target="_blank"><i class="fa fa-twitter"></i></a>
+						</li>
+						<li id="menu-item-1397" class="menu-item">
+							<a href="https://plus.google.com/u/0/105539025811866673387/posts" target="_blank"><i class="fa fa-google-plus"></i></a>
+						</li>
+						<li id="menu-item-1415" class="menu-item ">
+							<a href="#search"><i class="fa fa-search"></i></a>
+						</li>
+
+					</ul>
+				</nav>
 
 				<nav class="primary" role="navigation">
 					
@@ -164,9 +177,22 @@ body.inverted #contactMapHolder {
 				</div>
 
 				<nav class="secondary" role="navigation">
-					<ul id="menu-secondary-navigation" class="nav cf"><li id="menu-item-1397" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1397"><a href="https://twitter.com/simonbouchard"><i class="fa fa-twitter"></i></a></li>
-<li id="menu-item-1415" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1415"><a href="#search"><i class="fa fa-search"></i></a></li>
-</ul>				</nav>
+					<ul id="menu-secondary-navigation" class="nav cf">
+						<li id="menu-item-1397" class="menu-item">
+							<a href="https://www.facebook.com/tresmediaperu" target="_blank"><i class="fa fa-facebook"></i></a>
+						</li>
+						<li id="menu-item-1397" class="menu-item">
+							<a href="https://twitter.com/tresmediaperu" target="_blank"><i class="fa fa-twitter"></i></a>
+						</li>
+						<li id="menu-item-1397" class="menu-item">
+							<a href="https://plus.google.com/u/0/105539025811866673387/posts" target="_blank"><i class="fa fa-google-plus"></i></a>
+						</li>
+						<li id="menu-item-1415" class="menu-item ">
+							<a href="#search"><i class="fa fa-search"></i></a>
+						</li>
+
+					</ul>
+				</nav>
 
 				<nav class="primary" role="navigation">
 					<?php wp_nav_menu(array('theme_location' => 'menu-header','menu_id' => 'menu', 'menu_class' => 'eleven columns','container' => '','items_wrap'      => '<ul id="menu-main-navigation" class="nav cf">%3$s</ul>',)); ?>

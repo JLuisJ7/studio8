@@ -3194,7 +3194,7 @@ nav.secondary {
 }
 nav.secondary ul > li {
   padding: 0;
-  margin-right: 50px;
+  margin-right: 10px;
 }
 nav.secondary ul > li > a {
   color: #8c8c8c;
