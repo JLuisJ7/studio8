@@ -143,7 +143,7 @@
               <article class='block-item quarter-width quarter-height overlay-expand cf cat_9' >
                 <a href='<?php the_permalink();?>' rel='bookmark' target='_self' title='<?php the_title(); ?>'>
                   <div class='over'></div>
-                  <h5><i><?php the_title(); ?></i></h5>
+                  <h5 style=" opacity: 1;top: 25%;"><i><?php the_title(); ?></i></h5>
                   <div class='image' style='background-image: url();'></div>
                 </a>
 
