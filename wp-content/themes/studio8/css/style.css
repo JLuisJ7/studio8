@@ -1123,7 +1123,7 @@ body.mobile .row.parallax, body.tablet .row.parallax {
   position: relative;
   width: 100%;
   height: auto;
-  padding: 72px 0;
+  padding: 0 0;
   margin: 0 auto;
   text-align: center;
   background-size: cover !important;

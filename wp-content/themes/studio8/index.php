@@ -116,6 +116,44 @@
         </div>
       </div>
     </div>
+    <div class="row cf" style="background-size: auto;">
+      <div class='block-grid projects-listing columns-4 cf'>
+        <div class="wrap"> 
+          <div class="shortcode_text_block" style="background: transparent;width:70%;">
+            <h3 class="title" style="">Ultimas Entradas</h3>
+          </div>
+        </div>
+        <?php
+           $sticky = get_option( 'sticky_posts' );
+            $the_query = new WP_Query(
+              array(                    
+                'post_type' => 'post',
+                'posts_per_page' => 4,
+                'post__not_in' => $sticky,
+                'ignore_sticky_posts' => 1
+                    )
+            );
+          ?>  
+           <?php if ($the_query->have_posts()): ?>
+            <?php while($the_query->have_posts()): $the_query->the_post(); ?>
+              <?php
+                $fullimage = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );
+                      $urlfullimage = $fullimage['0']; 
+              ?>
+              <article class='block-item quarter-width quarter-height overlay-expand cf cat_9' >
+                <a href='<?php the_permalink();?>' rel='bookmark' target='_self' title='<?php the_title(); ?>'>
+                  <div class='over'></div>
+                  <h5><i><?php the_title(); ?></i></h5>
+                  <div class='image' style='background-image: url(<?php echo $urlfullimage; ?>);'></div>
+                </a>
+              </article>
+              
+            <?php endwhile; ?>    
+          <?php endif ?>
+          <?php wp_reset_postdata(); ?>
+        
+      </div>
+    </div>
   </div>
 
 <?php get_footer(); ?>
