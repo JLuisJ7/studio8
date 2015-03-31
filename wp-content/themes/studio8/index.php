@@ -144,8 +144,9 @@
                 <a href='<?php the_permalink();?>' rel='bookmark' target='_self' title='<?php the_title(); ?>'>
                   <div class='over'></div>
                   <h5><i><?php the_title(); ?></i></h5>
-                  <div class='image' style='background-image: url(<?php echo $urlfullimage; ?>);'></div>
+                  <div class='image' style='background-image: url();'></div>
                 </a>
+
               </article>
               
             <?php endwhile; ?>    
